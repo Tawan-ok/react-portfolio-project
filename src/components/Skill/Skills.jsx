@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Skills.module.css'
-import {FaSquareJs,FaReact,FaSass,FaGitAlt ,FaNode}  from "react-icons/fa6"
+import {FaSquareJs,FaReact,FaSass,FaGitAlt ,FaNode ,FaJava }  from "react-icons/fa6"
+import { SiSpringboot } from "react-icons/si";
 
 function Skills() {
   return (
@@ -11,10 +12,13 @@ function Skills() {
                 <FaSquareJs/>
             </li>
             <li>
+                <FaJava/>
+            </li>
+            <li>
                 <FaReact/>
             </li>
             <li>
-                <FaSass/>
+               <SiSpringboot />
             </li>
             <li>
                 <FaGitAlt/>
