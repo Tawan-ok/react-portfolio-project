@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./Portfolio.module.css";
 import Tilt from "react-parallax-tilt";
 import NannyRightNow from "../../assets/NannyRightNow.jpg";
+import { Link } from "react-router-dom";
+
 function Portfolio() {
   return (
     <div className={styles.port_con}>
@@ -9,14 +11,10 @@ function Portfolio() {
       <div className={styles.port_list}>
         <div className={styles.port_item}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
-            <a href="http://35.213.138.87:31000/home"> 
-            <img
-              src={NannyRightNow}
-              alt=""
-            />
-            </a>
+            <Link to="/nanny">
+              <img src={NannyRightNow} alt="NannyRightNow" />
+            </Link>
           </Tilt>
-
           <p>Project: NannyRightNow</p>
         </div>
         <div className={styles.port_item}>
@@ -26,7 +24,7 @@ function Portfolio() {
               alt=""
             />
           </Tilt>
-          <p>Project Title</p>
+          <p>Project: Memo Website</p>
         </div>
         <div className={styles.port_item}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
@@ -35,7 +33,7 @@ function Portfolio() {
               alt=""
             />
           </Tilt>
-          <p>Project Title</p>
+          <p>Project: Lottery</p>
         </div>
         <div className={styles.port_item}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
@@ -44,7 +42,7 @@ function Portfolio() {
               alt=""
             />
           </Tilt>
-          <p>Project Title</p>
+          <p>Project: Weather360</p>
         </div>
         <div className={styles.port_item}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
@@ -53,7 +51,7 @@ function Portfolio() {
               alt=""
             />
           </Tilt>
-          <p>Project Title</p>
+          <p>Project: Chat</p>
         </div>
         <div className={styles.port_item}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
@@ -62,7 +60,7 @@ function Portfolio() {
               alt=""
             />
           </Tilt>
-          <p>Project Title</p>
+          <p>Project: Movie rating</p>
         </div>
       </div>
     </div>
