@@ -5,6 +5,7 @@ import NannyRightNow from '../../assets/NannyRightNow.jpg';
 import Memo from '../../assets/memo.jpg';
 import NannyRightNowVideo from '../../assets/nannyrightnow.mp4';
 import HotTrain from '../../assets/Hot train.jpg'
+import TestEiei from '../../assets/testeiei.jpg'
 function Portfolio() {
   const [showVideo, setShowVideo] = useState(false);
 
@@ -66,11 +67,11 @@ function Portfolio() {
         <div className={styles.port_item}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <img
-              src="https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={TestEiei}
               alt="Chat"
             />
           </Tilt>
-          <p>Project: Chat</p>
+          <p>Project: <a href="https://github.com/Tawan-ok/Second-Hand-E-Commerce">Second-Hand-E-Commerce</a> </p>
         </div>
         <div className={styles.port_item}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
@@ -79,7 +80,7 @@ function Portfolio() {
               alt="Movie Rating"
             />
           </Tilt>
-          <p>Project: Hot train</p>
+          <p>Project: <a href="https://github.com/Tawan-ok/Hot-train"> Hot train</a></p>
         </div>
       </div>
     </div>
