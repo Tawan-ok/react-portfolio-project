@@ -35,7 +35,7 @@ function Portfolio() {
               Your browser does not support the video tag.
             </video>
           )}
-          <p>Project: <a href="https://github.com/Tawan-ok/memo-website" >NannyRightNow</a></p> 
+          <p>Project: <a href="https://gitlab.com/Tawan-ok/senior_ict.git" >NannyRightNow</a></p> 
         </div>
         <div className={styles.port_item}>
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
