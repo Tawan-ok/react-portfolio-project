@@ -56,6 +56,14 @@
   }
 }
 
+.hero_wrapper a {
+ 
+  color: black;          
+}
+
+.hero_wrapper a:hover {
+  color: blue;         
+}
 @media screen and (max-width: 480px) {
   .hero_wrapper {
     height: auto;

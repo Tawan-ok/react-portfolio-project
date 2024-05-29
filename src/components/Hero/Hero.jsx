@@ -26,11 +26,10 @@ function Hero() {
                 repeat={Infinity}
               />
             </p>
-            <p className={styles.text_4}>
-              About me <br />
-              I am a strong interest in coding and a positive mindset <br />
-               and I am eager to learn and grow as a programmer <br />
-            </p>
+            <br/>
+            <h1>
+              About me click on <a href="https://drive.google.com/file/d/1qhadkC8hvRpl9nSDUOTOo7yRYBcE8UQp/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.custom_link}>Resume</a>
+            </h1>
             <ul className={styles.hero_social}>
               <li>
                 {" "}
